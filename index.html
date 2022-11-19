@@ -5,334 +5,373 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+    <link rel="shortcut icon" href="assets/logos/logo_pestaña.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <title>SC Packaging</title>
-    <link rel="shortcut icon" href="assets/logos/logo_pestaña.png">
-
+ 
 </head>
 
 <body>
 
-    <!--Navbar-->
+    <div id="page">
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <img src="assets/logos/logo.png" alt="">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 1.5rem;">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#nosotros">NOSOTROS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            PRODUCTOS
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item borde" href="#filmManual">Film Stretch <br>Manual</a></li>
-                            <li><a class="dropdown-item borde" href="#filmAutomatico">Film Stretch <br>Automático</a>
+        <!--Navbar-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <img src="assets/logos/logo.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 1.5rem;">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#nosotros">NOSOTROS</a>
                             </li>
-                            <li><a class="dropdown-item borde" href="#cintasAdeshivas">Cintas Adhesivas</a></li>
-                            <li><a class="dropdown-item" href="#esquineros"
-                                    style="text-align: center;  font-weight: 600;">Esquineros</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICIOS
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item borde" href="#servicios"> Servicio técnico <br>de envolvedoras
-                                </a></li>
-                            <li><a class="dropdown-item borde" href="#servicios"> Mantenimiento de <br>
-                                    envolvedoras</a></li>
-                            <li><a class="dropdown-item borde" href="#servicios"> Retrofiting</a></li>
-                            <li><a class="dropdown-item borde" href="#servicios"> Layout </a></li>
-                            <li><a class="dropdown-item borde" href="#servicios"> Capacitaciones </a></li>
-                            <li><a class="dropdown-item borde" href="#servicios"> Asesoramiento <br>técnico </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PRODUCTOS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item borde" href="#filmManual">Film Stretch <br>Manual</a></li>
+                                    <li><a class="dropdown-item borde" href="#filmAutomatico">Film Stretch
+                                            <br>Automático</a>
+                                    </li>
+                                    <li><a class="dropdown-item borde" href="#cintasAdeshivas">Cintas Adhesivas</a></li>
+                                    <li><a class="dropdown-item" href="#esquineros"
+                                            style="text-align: center;  font-weight: 600;">Esquineros</a></li>
+                                </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#servicios"
-                                    style="text-align: center; font-weight: 600;"> Reciclaje de
-                                    bujes </a></li>
-                        </ul>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">CONTACTO</a>
-                    </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    SERVICIOS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item borde" href="#servicios"> Servicio técnico <br>de
+                                            envolvedoras
+                                        </a></li>
+                                    <li><a class="dropdown-item borde" href="#servicios"> Mantenimiento de <br>
+                                            envolvedoras</a></li>
+                                    <li><a class="dropdown-item borde" href="#servicios"> Retrofiting</a></li>
+                                    <li><a class="dropdown-item borde" href="#servicios"> Layout </a></li>
+                                    <li><a class="dropdown-item borde" href="#servicios"> Capacitaciones </a></li>
+                                    <li><a class="dropdown-item borde" href="#servicios"> Asesoramiento <br>técnico </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#servicios"
+                                            style="text-align: center; font-weight: 600;"> Reciclaje de
+                                            bujes </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Carousel-->
+        <section>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="d-block w-100 carousel_1"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-block w-100 carousel_2"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-block w-100 carousel_3"></div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!--Sección productos-->
+        <section>
+            <div class="section_products">
+                <div class="card_products card_1">
+                    <h1><a href="#filmManual">Film Stretch</a></h1>
+                </div>
+                <div class="card_products card_2">
+                    <h1><a href="#cintasAdeshivas">Cintas Adhesivas</a></h1>
+                </div>
+                <div class="card_products card_3">
+                    <h1><a href="#servicios">Servicio Técnico</a></h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Nosotros-->
+        <section>
+            <article>
+                <div class="section_nosotros blue" id="nosotros">
+
+                    <h1>NOSOTROS</h1>
+                    <p>
+                        Queremos compartir con usted nuestro compromiso.<br><br>
+                        Nuestra mayor ambición está enfocada en hacer la diferencia dentro del mercado, y estamos
+                        convencidos de que
+                        la mejor forma de hacerlo es estando siempre del lado de nuestro cliente, brindándoles el tiempo,
+                        celeridad,
+                        atención, calidad y honestidad que se merece.<br><br>
+                        En nosotros encontrará un proveedor comprometido y bien dispuesto a trabajar codo a codo con usted,
+                        esmerados en acercarle la mejor respuesta e información para que pueda decidir sobre su compra
+                        contando con
+                        todas las herramientas objetivas de cada caso.<br><br>
+                        Es por ello que le rogamos tenga plena certeza que a cada paso daremos lo mejor de nosotros por
+                        superar sus
+                        expectativas y honrar su decisión de elegirnos.<br>
+                    </p>
+
+                </div>
+            </article>
+
+            <article>
+                <div class="section_ofrecemos">
+
+                    <h1>¿Qué ofrecemos?</h1>
+
+                    <ul>
+                        <li><span>•</span> Garantizamos el equilibrio entre operación y estrategia</li>
+                        <li><span>•</span> <b>Entender los procesos y la forma en la que son utilizados los productos y
+                                servicios
+                                requeridos</b></li>
+                        <li><span>•</span> Tenemos una adecuada comunicación con los usuarios internos</li>
+                        <li><span>•</span><b> Tener información más precisa de la operatoria y sus objetivos para poder
+                                enriquecer
+                                este proceso y su
+                                resultado final, a través de nuestra investigación y conocimiento</b></li>
+                        <li><span>•</span> Dedicamos el tiempo suficiente para entender e indagar</li>
+                        <li> <b><span>•</span> Realizamos visitas y auditorias que nos abren la posibilidad de activar ideas
+                                que
+                                puedan aportar
+                                mejoras de
+                                nuestros productos y servicios uniéndonos para lograr un objetivo común</b></li>
+                        <li><span>•</span> Incorporamos más y mejores herramientas que nos permiten tener acceso a
+                            información como
+                            análisis de
+                            mercados, tendencias, indicadores y novedades sectoriales</li>
+                        <li><b><span>•</span> Ayudamos en el análisis de la correcta adquisición e implementación de nuevos
+                                equipamientos</b></li>
+                        <li><span>•</span> Hacemos envíos a todo el país</li>
+                    </ul>
+
+                    <div class="diferencia">
+                        <H1>¿Qué nos diferencia?</H1>
+                        <p>Nuestro enfoque en el cliente y sus necesidades</p>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+
+        <!--Detalle de los productos-->
+        <main>
+            <section>
+                <div class="section_details">
+                        <div class="container_product blue">
+                            <div class="header_details blue">
+                                <h1 id="nosotros">PRODUCTOS</h1>
+                                <p>En SC PACKAGING queremos agilizar y mejorar la productividad de nuestros clientes. Por eso, les
+                                    ofrecemos productos de calidad y una atención personalizada en todo el proceso de compra.</p>
+                            </div>
+
+                            <div class="product_detail">
+                                <div class="container_text">
+                                    <div class="contenedor_detalles" id="filmManual">
+                                        <h2>Film Stretch Manual<br></h2>
+
+                                        <div class="text_detail">
+                                            Película Stretch con alta resistencia a la perforación, generando economía superior para el
+                                            cliente. Inicialmente desarrollado para Europa y Estados Unidos, ahora ya está disponible
+                                            para el mercado interior.
+                                        </div>
+                                        <div class="text_detail">
+                                            Diferenciada de todos los demás del mercado: posee mayor rendimiento, mejor estiramiento,
+                                            sin riesgos de perforación o rompimientos. Película coextrusada en 5 capas , que resulta en
+                                            una perfecta sinergia entre los materiales. <br>
+
+                                        </div>
+                                        <div class="text_detail">
+                                            Presentacion adaptable a las necesidades del cliente, elaboramos la bobina de acuerdo al
+                                            peso que requiera.
+                                        </div>
+
+                                    </div>
+                                    <figure><img src="assets/detalles/film_stretch_manual.png" class="img_detail" alt="Film Stretch Manual"></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container_product">
+                            <div class="product_detail">
+                                <div class="container_text">
+                                    <div class="contenedor_detalles" id="filmAutomatico">
+                                        <h2>Film Stretch Automático<br></h2>
+
+                                        <div class="text_detail">
+                                            Película Stretch con 300% de prestiro, alta resistencia a la perforación, generando economía
+                                            superior para el cliente. Inicialmente desarrollado para Europa y Estados Unidos, ahora ya
+                                            está disponible para el mercado interior.
+                                        </div>
+                                        <div class="text_detail">
+                                            Diferenciada de todos los demás del mercado: posee mayor rendimiento, mejor estiramiento,
+                                            sin riesgos de perforación o rompimientos. Película coextrusada en 5 capas, que resulta en
+                                            una perfecta sinergia entre los materiales. Ideal para equipos envolvedores con cabezal
+                                            prestirador.
+                                        </div>
+                                        <div class="text_detail">
+                                            Ofrecemos realizar las pruebas de calidad y rendiento en su planta sin compromiso.
+                                        </div>
+
+                                    </div>
+                                    <figure><img src="assets/detalles/film_stretch_automatico.png" class="img_detail" alt="Film Stretch Automático"></figure>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="section_details2 blue">
+                    <div class="product2">
+                        <div class="productos" id="cintasAdeshivas">
+                            <h2>Cintas Adhesivas<br></h2>
+                            <figure><img src="assets/detalles/cintas_autoadhesivas.png" class="img_detail" alt="Cinta Adhesiva"></figure>
+                        </div>
+
+                        <div class="productos"  id="esquineros">
+                            <h2>Esquineros<br></h2>
+                            <figure><img src="assets/detalles/esquineros.png" class="img_detail" alt="Esquineros"></figure>
+                        </div>
+                    </div>
+                    <p id="servicios"></p>
+                </div>
+            </section>
+        </main>
+
+        <!--Servicios-->
+        <section>
+            <div class="section_servicios">
+                <h1>SERVICIOS</h1>
+                <ul>
+                    <li><span>•</span>Servicio técnico y mantenimiento de envolvedores y cerradoras de cajas</li>
+                    <li><span>•</span>Retrofiting y layout de equipos</li>
+                    <li><span>•</span>Planeamiento de abastecimiento externo, capacitación de aplicación y funciones del
+                        embalaje</li>
+                    <li><span>•</span>Asesoramiento técnico profesional para el ahorro seguro del embalaje</li>
+                    <li style="border-bottom:0;"><span>•</span>Reciclaje de bujes usados al mejor precio del mercado</li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </section>
 
-    <!--Carousel-->
-
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2000">
-            <div class="d-block w-100 carousel_1"></div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div class="d-block w-100 carousel_2"></div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div class="d-block w-100 carousel_3"></div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    
-    <!--Sección productos-->
-
-    <div class="section_products">
-        <div class="card_products card_1">
-            <h1><a href="#filmManual">Film Stretch</a></h1>
-        </div>
-        <div class="card_products card_2">
-            <h1><a href="#cintasAdeshivas">Cintas Adhesivas</a></h1>
-        </div>
-        <div class="card_products card_3">
-            <h1><a href="#servicios">Servicio Técnico</a></h1>
-        </div>
-    </div>
-
-    <!--Nosotros-->
-
-    <div class="nosotros blue" id="nosotros">
-
-        <h1>NOSOTROS</h1>
-        <p class="compromiso">
-            Queremos compartir con usted nuestro compromiso.<br><br>
-            Nuestra mayor ambición está enfocada en hacer la diferencia dentro del mercado, y estamos convencidos de que
-            la mejor forma de hacerlo es estando siempre del lado de nuestro cliente, brindándoles el tiempo, celeridad,
-            atención, calidad y honestidad que se merece.<br><br>
-            En nosotros encontrará un proveedor comprometido y bien dispuesto a trabajar codo a codo con usted,
-            esmerados en acercarle la mejor respuesta e información para que pueda decidir sobre su compra contando con
-            todas las herramientas objetivas de cada caso.<br><br>
-            Es por ello que le rogamos tenga plena certeza que a cada paso daremos lo mejor de nosotros por superar sus
-            expectativas y honrar su decisión de elegirnos.<br><br>
-        </p>
-
-    </div>
-
-    <div class="ofrecemos">
-        <h2>¿Qué ofrecemos?</h2>
-
-        <ul>
-            <li>Garantizamos el equilibrio entre operación y estrategia</li> <img src="assets/flecha.gif" alt="Gif de flecha">
-            <p><b>Entender los procesos y la forma en la que son utilizados los productos y servicios requeridos</b></p>
-            <li>Tenemos una adecuada comunicación con los usuarios internos </li> <img src="assets/flecha.gif" alt="Gif de flecha">
-            <p><b>Tener información más precisa de la operatoria y sus objetivos para poder enriquecer este proceso y su
-                    resultado final, a través de nuestra investigación y conocimiento.</b></p>
-            <li>Dedicamos el tiempo suficiente para entender e indagar</li>
-            <li> <b>Realizamos visitas y auditorias que nos abren la posibilidad de activar ideas que puedan aportar
-                    mejoras de
-                    nuestros productos y servicios uniéndonos para lograr un objetivo común</b></li>
-            <li> Incorporamos más y mejores herramientas que nos permiten tener acceso a información como análisis de
-                mercados, tendencias, indicadores y novedades sectoriales</li>
-            <li><b>Ayudamos en el análisis de la correcta adquisición e implementación de nuevos equipamientos</b></li>
-            <li>Hacemos envíos a todo el país</li>
-        </ul>
-
-
-    </div>
-
-
-    <div class="diferencia">
-        <H2>¿Qué nos diferencia?</H2>
-        <p>Nuestro enfoque en el cliente y sus necesidades.</p>
-    </div>
-
-    <!--Detalle de los productos-->
-
-    <div class="section_details">
-        <div class="container_product blue">
-            <div class="header_details blue">
-                <h1 id="nosotros">PRODUCTOS</h1>
-                <p>En SC PACKAGING queremos agilizar y mejorar la productividad de nuestros clientes. Por eso, les
-                    ofrecemos productos de calidad y una atención personalizada en todo el proceso de compra.</p>
+        <!--Banner-->
+        <section>
+            <div class="section_banner">
             </div>
+        </section>
 
-            <div class="product_detail">
-                <div class="container_text">
-                    <div class="contenedor_detalles" id="filmManual">
-                        <h2>Film Stretch Manual<br></h2>
+        <!--Preefooter-->
+        <section>
+            <div class="section_prefooter blue" id="footer">
 
-                        <div class="text_detail">
-                            Película Stretch con alta resistencia a la perforación, generando economía superior para el
-                            cliente. Inicialmente desarrollado para Europa y Estados Unidos, ahora ya está disponible
-                            para el mercado interior.
-                        </div>
-                        <div class="text_detail">
-                            Diferenciada de todos los demás del mercado: posee mayor rendimiento, mejor estiramiento,
-                            sin riesgos de perforación o rompimientos. Película coextrusada en 5 capas , que resulta en
-                            una perfecta sinergia entre los materiales. <br>
-
-                        </div>
-                        <div class="text_detail">
-                            Presentacion adaptable a las necesidades del cliente, elaboramos la bobina de acuerdo al
-                            peso que requiera.
-                        </div>
-
-                    </div>
-                    <img src="assets/detalles/film_stretch_manual.png" class="img_detail" alt="Film Stretch Manual">
+                <div>
+                    <h1 class="title_prefooter">
+                        ¡ESTAMOS PARA AYUDARTE!
+                    </h1>
+                    <p>
+                        Lo que más nos importa es que nuestros clientes reciban atención personalizada y efectiva. Por eso,
+                        trabajamos día a día
+                        en dar respuestas inmediatas.
+                        <br>
+                        Podes escribirnos a través de todos nuestros canales, enviarnos un mail a <b>info@scpackaging.com</b> o
+                        comunicarte al <b class="numero">011 4749-0700</b>
+                    </p>
                 </div>
-            </div>
-        </div>
 
-        <div class="container_product" id="filmAutomatico">
-            <div class="product_detail">
-                <div class="container_text">
-                    <div class="contenedor_detalles">
-                        <h2>Film Stretch Automático<br></h2>
-
-                        <div class="text_detail">
-                            Película Stretch con 300% de prestiro, alta resistencia a la perforación, generando economía
-                            superior para el cliente. Inicialmente desarrollado para Europa y Estados Unidos, ahora ya
-                            está disponible para el mercado interior.
-                        </div>
-                        <div class="text_detail">
-                            Diferenciada de todos los demás del mercado: posee mayor rendimiento, mejor estiramiento,
-                            sin riesgos de perforación o rompimientos. Película coextrusada en 5 capas, que resulta en
-                            una perfecta sinergia entre los materiales. Ideal para equipos envolvedores con cabezal
-                            prestirador.
-                        </div>
-                        <div class="text_detail">
-                            Ofrecemos realizar las pruebas de calidad y rendiento en su planta sin compromiso.
-                        </div>
-
-                    </div>
-                    <img src="assets/detalles/film_stretch_automatico.png" class="img_detail" alt="Film Stretch Automático">
+                <div class="container_img">
+                    <a href="https://walink.co/372a71" target="_blank"><img src="assets/iconos/whatsapp.png"
+                            alt="Icono Whatsapp"></a>
+                    <a href="https://www.linkedin.com/in/maria-belen-mosquera-34a944136" target="_blank"><img
+                            src="assets/iconos/linkedin.png" alt="Icono linkedIn"></a>
+                    <a href="https://listado.mercadolibre.com.ar/_CustId_1224279380?item_id=MLA1229992544&category_id=MLA405148&seller_id=1224279380&client=recoview-selleritems&recos_listing=true"
+                        target="_blank"><img src="assets/iconos/mercadolibre.png" alt="Icono Mercado Libre"
+                            style="border-radius: 10px;"></a>
                 </div>
+
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="productos2 blue" id="esquineros">
+        <!--Footer-->
+        <footer>
+            <div class="section_footer" id="contacto">
 
-        <div class="productos3">
-            <div class="productos" id="cintasAdeshivas">
-                <h2>Cintas Adhesivas<br></h2>
-                <img src="assets/detalles/cintas_autoadhesivas.png" class="img_detail" alt="Cinta Adhesiva">
+                <section>
+                <div class="header_footer">
+                    <img src="assets/logos/logo_transparente.png" alt="" class="logo">
+                    <img src="assets/logos/qr.jpeg" alt="" class="qr">
+                    <div class="text_footer">
+                        <p>
+                            <b>23-29959289-4<br></b>
+                            <b>MOSQUERA MARIA BELEN<br></b>
+                            <b>IVA RESPONSABLE INSCRIPTO<br></b>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="contenedor_footer">
+                    <div class="body_footer">
+                        <p>
+                            <b>
+                                Productos</br>
+                            </b>
+                            Film Stretch Manual</br>
+                            Film Stretch Automático</br>
+                            Cinta Adhesiva</br>
+                            Esquineros</br>
+                            Servicio técnico</br>
+                        </p>
+                    </div>
+
+                    <div class="body_footer">
+                        <p>
+                            <b>
+                                Contacto</br>
+                            </b>
+                            Tigre, Buenos Aires</br>
+                            +54 9 11 4749-0700</br>
+                            +54 9 11 6943-6518</br>
+                            info@scpackaging.com</br>
+                            <a href="https://www.linkedin.com/in/maria-belen-mosquera-34a944136"
+                                target="_blank">Linkedin</a></br>
+                            <a href="www.scpackaging.com.ar" target="_blank">www.scpackaging.com.ar</a></br>
+                        </p>
+                    </div>
+                </section>
             </div>
-
-            <div class="productos" >
-                <h2>Esquineros<br></h2>
-                <img src="assets/detalles/esquineros.png" class="img_detail" alt="Esquineros">
-            </div>
-        </div>
-        <p id="servicios"> Para recibir mas información sobre estos productos comunicate al <b>11 6943 6518</b> o enviarnos un mail a
-           <b>info@scpackaging.com.ar </b></p>
-
-
-    </div>
-
-    <!--Servicios-->
-
-    <div class="servicios">
-        <h1>SERVICIOS</h1>
-        <ul>
-            <li>Servicio técnico y mantenimiento de envolvedores y cerradoras de cajas</li>
-            <li>Retrofiting y layout de equipos</li>
-            <li>Planeamiento de abastecimiento externo, capacitación de aplicación y funciones del embalaje</li>
-            <li>Asesoramiento técnico profesional para el ahorro seguro del embalaje</li>
-            <li style="border-bottom:0;">Reciclaje de bujes usados al mejor precio del mercado</li>
-        </ul>
-    </div>
-
-    <!--Banner-->
-
-    <div class="banner">
-    </div>
-
-    <!--Preefooter-->
-
-    <div class="container_prefooter blue" id="footer">
-
-        <div>
-            <h1 class="title_prefooter">
-                ¡ESTAMOS PARA AYUDARTE!
-            </h1>
-            <p>
-                Lo que más nos importa es que nuestros clientes reciban atención personalizada y efectiva. Por eso,
-                trabajamos día a día
-                en dar respuestas inmediatas.
-                <br>
-                Podes escribirnos a través de todos nuestros canales, enviarnos un mail a <b>info@scpackaging.com</b> o comunicarte al <b>011 4749-0700</b>
-            </p>
-        </div>
-
-        <div class="container_img">
-            <a href="https://walink.co/372a71" target="_blank"><img src="assets/iconos/whatsapp.png" alt="Icono Whatsapp"></a>
-            <a href="https://www.linkedin.com/in/maria-belen-mosquera-34a944136" target="_blank"><img src="assets/iconos/linkedin.png" alt="Icono linkedIn"></a>
-            <a href="https://listado.mercadolibre.com.ar/_CustId_1224279380?item_id=MLA1229992544&category_id=MLA405148&seller_id=1224279380&client=recoview-selleritems&recos_listing=true" target="_blank"><img src="assets/iconos/mercadolibre.png" alt="Icono Mercado Libre"
-                    style="border-radius: 10px;"></a>
-        </div>
-
-    </div>
-
-    <!--Footer-->
-
-    <div class="container_footer" id="contacto">
-
-        <div class="header_footer">
-            <img src="assets/logos/logo_transparente.png" alt="" class="logo">
-            <img src="assets/logos/qr.jpeg" alt="" class="qr">
-            <div class="text_footer">
-                <p>
-                    <b>23-29959289-4<br></b> 
-                    <b>MOSQUERA MARIA BELEN<br></b> 
-                    <b>IVA RESPONSABLE INSCRIPTO<br></b> 
-                </p>
-            </div>
-        </div>
-
-
-
-        <div class="contenedor_footer">
-            <div class="body_footer">
-                <p>
-                    <b>
-                        Productos</br>
-                    </b>
-                    Film Stretch Manual</br>
-                    Film Stretch Automático</br>
-                    Cinta Adhesiva</br>
-                    Esquineros</br>
-                    Servicio técnico</br>
-                </p>
-            </div>
-
-            <div class="body_footer">
-                <p>
-                    <b>
-                        Contacto</br>
-                    </b>
-                    Tigre, Buenos Aires</br>
-                    +54 9 11 6943-6518</br>
-                    info@scpackaging.com</br>
-                    <a href="https://www.linkedin.com/in/maria-belen-mosquera-34a944136"target="_blank">Linkedin</a></br>
-                    <a href="Www.scpackaging.com.ar" target="_blank">www.scpackaging.com.ar</a></br>
-                </p>
-            </div>
-        </div>
+        </footer>
 
     </div>
 
@@ -341,5 +380,4 @@
         crossorigin="anonymous"></script>
 
 </body>
-
 </html>
